@@ -1,0 +1,135 @@
+.ff__header {
+    display: flex;
+   
+
+}
+
+.ff__header-content {
+    flex: 1;
+    display: flex;
+    justify-content:  center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    margin-right: 6rem;
+    margin-left: 10rem;
+
+
+}
+
+
+.ff__header-content h1 {
+   font-weight: 800;
+   font-family: 'DM-sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 90px;
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+    padding-top:10rem;
+}
+
+.ff__header-content p {
+    font-size: 1.2rem;
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+    
+ }
+
+ .ff__header-content__input {
+     width: 100%;
+     margin: 2rem 0 1rem;
+     display: flex;
+ }
+ 
+.ff__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+  
+
+}
+
+.ff__header-image img {
+    width: 110%;
+    height: 100%;
+    left: 694px;
+    border-radius: 79px;
+    padding-top: 5rem;
+    margin-right: 2rem;
+    
+}
+
+
+@media screen and (max-width: 1050px) {
+    .ff__header {
+        flex-direction: column;
+    }
+    .ff__header-content {
+        margin: 0 0 3rem;
+        
+    }
+
+    .ff__header-content h1 {
+        padding-top:5rem;
+    }
+    .ff__header-image {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ff__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .ff__header p{
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+   .container h3{
+  
+        font-size: 18px;
+        font-family: 'Mulish', sans-serif;
+        font-weight:600;
+        letter-spacing: 3px;
+   
+   }
+
+    .ff__header-image {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .ff__header h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .ff__header p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .container h3{
+  
+        font-size: 18px;
+        font-family: 'Mulish', sans-serif;
+        font-weight:600;
+        letter-spacing: 3px;
+   
+   }
+
+    .ff__header-image {
+        display:none;
+    }
+}
+
+
+
