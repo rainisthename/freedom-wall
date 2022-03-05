@@ -1,0 +1,152 @@
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72vh;
+}
+
+
+
+input {
+    padding: 15px;
+    margin: 20px 0px;
+    background-color:#293F53;
+    border-style: none;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+
+textarea {
+    padding: 15px;
+    margin: 20px 0px;
+    background-color:#293F53;
+    border-style: none;
+    height: 20vh;
+    width: 60vh;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    
+}
+
+form {
+    padding: 20px 60px;
+    
+    
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo-style{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   
+}
+
+.outside-box {
+    padding: 40px 60px;
+    background-color: #141D26;
+}
+
+@media screen and (max-width: 940px) {
+   
+
+    input {
+        padding: 15px;
+        margin: 20px 0px;
+        background-color:#293F53;
+        border-style: none;
+        height: 60px;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+    }
+
+    textarea {
+        padding: 15px;
+        margin: 10px 0px;
+        background-color:#293F53;
+        border-style: none;
+        height: 30vh;
+        width: 50vh;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        
+    }
+    
+    .outside-box {
+        padding: 40px 20px;
+        background-color: #141D26;
+    }
+
+    form {
+        padding: 0px 20px;
+        
+        
+    }
+
+    .form-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 59vh;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 540px) {
+   
+
+    input {
+        padding: 15px;
+        margin: 20px 0px;
+        background-color:#293F53;
+        border-style: none;
+        height: 60px;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+    }
+
+    textarea {
+        padding: 15px;
+        margin: 10px 0px;
+        background-color:#293F53;
+        border-style: none;
+        height: 30vh;
+        width: 40vh;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        
+    }
+    
+    .outside-box {
+        padding: 40px 20px;
+        background-color: #141D26;
+    }
+
+    form {
+        padding: 0px 20px;
+        
+        
+    }
+
+    
+}

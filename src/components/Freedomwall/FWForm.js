@@ -9,8 +9,7 @@ import styled from 'styled-components'
 function FWForm() {
   const link = 'https://heroku1337.herokuapp.com/api/v1/crud'
   const [Submission, setSubmission] = useState([])
-  const [SubmissionName, setSubmissionName] = useState('')
-  const [SubmissionComment, setSubmissionComment] = useState('')
+
 
   useEffect(() => {
     getSubmission()
@@ -23,20 +22,20 @@ function FWForm() {
       setSubmission(data.data.crud)
   }
 
-  async function addSubmission(e) {
-    e.preventDefault()
+//   async function addSubmission(e) {
+//     e.preventDefault()
 
-    const submissionData = {
-      name: SubmissionName ? SubmissionName : undefined,
-      comment: SubmissionComment ? SubmissionComment : undefined,
-      school: 'Northwestern University'
-    }
+//     const submissionData = {
+//       name: SubmissionName ? SubmissionName : undefined,
+//       comment: SubmissionComment ? SubmissionComment : undefined,
+//       school: 'Northwestern University'
+//     }
 
-    await axios.post(link, submissionData)
+//     await axios.post(link, submissionData)
 
-    setSubmissionName('')
-    setSubmissionComment('')
-  }
+//     setSubmissionName('')
+//     setSubmissionComment('')
+//   }
 
   // const renderSubmission = () => {
   //   return Submission.map((Submission, i) => {
@@ -57,31 +56,31 @@ function FWForm() {
     })
 }
   
-  const insertSubmission = () =>{
-    return <div className="Texteditor">
-        <form onSubmit={addSubmission}>
-            <div className="">
-                <input type="text" id="name" 
-                    placeholder="Enter Name..." 
-                    value={SubmissionName}
-                    onChange={(e) => setSubmissionName(e.target.value)}
-                    required
-                    />
-            </div>
-            <div className="input-control">
-                <textarea name="" id="comment" cols="30" rows="5" 
-                    placeholder="Task Name..." 
-                    value={SubmissionComment}
-                    onChange={(e) => setSubmissionComment(e.target.value)}
-                    ></textarea>
-            </div>
-            <button className="submit-btn">Add Item</button>
-        </form>
-    </div>
-}
+//   const insertSubmission = () =>{
+//     return <div className="Texteditor">
+//         <form onSubmit={addSubmission}>
+//             <div className="">
+//                 <input type="text" id="name" 
+//                     placeholder="Enter Name..." 
+//                     value={SubmissionName}
+//                     onChange={(e) => setSubmissionName(e.target.value)}
+//                     required
+//                     />
+//             </div>
+//             <div className="input-control">
+//                 <textarea name="" id="comment" cols="30" rows="5" 
+//                     placeholder="Task Name..." 
+//                     value={SubmissionComment}
+//                     onChange={(e) => setSubmissionComment(e.target.value)}
+//                     ></textarea>
+//             </div>
+//             <button className="submit-btn">Add Item</button>
+//         </form>
+//     </div>
+// }
 return (
     <ItemSubmission>
-        {insertSubmission()}
+        {/* {insertSubmission()} */}
         {renderSubmission()}
     </ItemSubmission>
 )

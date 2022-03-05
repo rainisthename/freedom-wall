@@ -10,7 +10,7 @@ import Freedomwall from "./routes/FreedomwallPage";
 import Blogs from "./routes/BlogPage";
 import About from "./routes/AboutPage";
 
-
+import SubmissionPage from "./routes/SubmissionPage"
 
 ReactDOM.render( 
 <BrowserRouter>
@@ -21,6 +21,8 @@ ReactDOM.render(
         <Route path='/Freedomwall' element={<Freedomwall />} />
         <Route path='/Blogs' element={<Blogs />} />
         <Route path='/about' element={<About />} />
+        <Route path='/freedomwall/submission' element={<SubmissionPage />} />
+  
     </Routes>
 </BrowserRouter>,
 

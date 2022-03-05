@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import Stock from '../../assets/Stock.png';
+
+import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div className="ff__header section__padding" id="home"> 
@@ -12,7 +14,10 @@ const Header = () => {
       <div className="ff__header-content__input">
       <div className="ff__navbar-submit-home">
       
-      <button type="button">SUBMIT RANT</button>
+      <Link to='/freedomwall'>
+       
+      <button type="button">VIEW RANT</button>
+      </Link>
       </div>
         
       </div>

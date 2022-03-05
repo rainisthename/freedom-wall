@@ -22,14 +22,16 @@ const Navbar = () => {
               
               
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/Freedomwall'>Freedom Wall</Link></li>
-                <li><Link to='/Guidelines'>Guidelines</Link></li>
-                <li><Link to='/Blogs'>Blogs</Link></li>
+                <li><Link to='/freedomwall'>Freedom Wall</Link></li>
+                <li><Link to='/guidelines'>Guidelines</Link></li>
+                <li><Link to='/blogs'>Blogs</Link></li>
                 <li><Link to='/about'>About Us</Link></li>
+                <Link to='/freedomwall/submission'>
                 <button>SUBMIT RANT</button>
+                </Link>
             </ul>
             <div className="hamburger" onClick={handleNav}>
-                {!nav ? (<FaBars classname='icon' />):(<FaTimes className='icon'/>)}
+                {!nav ? (<FaBars className='icon' />):(<FaTimes className='icon'/>)}
              
             </div>
         </div>

@@ -21,7 +21,7 @@ const about = () => {
           <li>Developer
             <ul className="b">
               <li>EE-Sama</li>
-              <li>Testing</li>
+              <li>masterbaiter</li>
             </ul>
           </li>
           <li>Moderator
