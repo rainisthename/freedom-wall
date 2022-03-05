@@ -54,6 +54,7 @@ const Submission = () => {
                     onChange={(e) => setSubmissionComment(e.target.value)}
                     ></textarea>
             </div>
+
             <button className="submit-btn">Create</button>
         </form>
     </div>

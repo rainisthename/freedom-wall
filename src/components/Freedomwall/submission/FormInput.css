@@ -67,6 +67,7 @@ form {
         border-style: none;
         height: 60px;
         font-size: 20px;
+        width: 50vh;
         color: white;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
@@ -117,6 +118,7 @@ form {
         background-color:#293F53;
         border-style: none;
         height: 60px;
+        width: 40vh;
         font-size: 20px;
         color: white;
         font-family: 'Poppins',sans-serif;
