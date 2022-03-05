@@ -67,7 +67,7 @@ form {
         border-style: none;
         height: 60px;
         font-size: 20px;
-        width: 50vh;
+        width: 100%;
         color: white;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
@@ -79,7 +79,7 @@ form {
         background-color:#293F53;
         border-style: none;
         height: 30vh;
-        width: 50vh;
+        width: 100%;
         font-size: 20px;
         color: white;
         font-family: 'Poppins',sans-serif;
@@ -118,7 +118,7 @@ form {
         background-color:#293F53;
         border-style: none;
         height: 60px;
-        width: 40vh;
+        width: 100%;
         font-size: 20px;
         color: white;
         font-family: 'Poppins',sans-serif;
@@ -131,7 +131,7 @@ form {
         background-color:#293F53;
         border-style: none;
         height: 30vh;
-        width: 40vh;
+        width: 100%;
         font-size: 20px;
         color: white;
         font-family: 'Poppins',sans-serif;

@@ -21,13 +21,13 @@ const about = () => {
           <li>Developer
             <ul className="b">
               <li>EE-Sama</li>
-              <li>masterbaiter</li>
+              <li>EE</li>
             </ul>
           </li>
-          <li>Moderator
+          <li>Tester
             <ul className="b">
-              <li>El Terrible</li>
-              <li>wwtashi</li>
+              <li>Aaron Cudal</li>
+              
             </ul>
           </li>
           
