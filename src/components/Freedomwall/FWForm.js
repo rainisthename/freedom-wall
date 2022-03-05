@@ -87,14 +87,40 @@ return (
 }
 
 const ItemSubmission = styled.div`
-padding-top: 9%;
 
-  
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+padding: 10rem;
+width: 100%;
+grid-gap: 15px;
+
+@media screen and (max-width: 1050px) {
+
+    grid-template-columns: 1fr 1fr ;
+}
+
+@media screen and (max-width: 850px) {
+
+ padding-left: 5rem;
+}
+
+@media screen and (max-width: 770px) {
+
+    padding-left: 1.5rem;
+   }
+
 @media screen and (max-width: 490px) {
 
     padding-top: 30%;
+    padding-left: 4%;
+ 
+    grid-template-columns: 1fr ;
 
 
 }
+
+
+
+
 `
 export default FWForm;
