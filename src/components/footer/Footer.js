@@ -37,13 +37,14 @@ const Footer = () => {
             <p>Guidelines</p>
             <p>Blogs</p>
           </div>
-          
+         
         </div>
-       
+        
       </div>
       <p className="footer-background"> © Cherry Software X ICONS Organization</p>
       
     </div>
+    
   )
 }
 
