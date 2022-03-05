@@ -20,9 +20,13 @@ const Submission = () => {
       school: 'Northwestern University'
     }
 
+    
+
     await axios.post(link, submissionData)
     setSubmissionName('')
     setSubmissionComment('')
+
+    
   }
 
   const insertSubmission = () => {
@@ -41,7 +45,7 @@ const Submission = () => {
             <div className="form-input">
           
                 <input type="text" id="name" 
-                    placeholder="Enter Name..." 
+                    placeholder="Enter Nickname.." 
                     value={SubmissionName}
                     onChange={(e) => setSubmissionName(e.target.value)}
                     required
@@ -49,13 +53,15 @@ const Submission = () => {
             </div>
             <div className="form-input">
                 <textarea name="" id="comment" cols="30" rows="5" 
-                    placeholder="Task Name..." 
+                    placeholder="Enter Body..." 
                     value={SubmissionComment}
                     onChange={(e) => setSubmissionComment(e.target.value)}
                     ></textarea>
             </div>
-
+         
+              
             <button className="submit-btn">Create</button>
+           
         </form>
     </div>
     
