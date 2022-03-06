@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
         <div className="col-container">
           <div className="col">
-            <h3>Schools</h3>
-            <p>Northwestern University</p>
-            <p>Mariano Marcos State University</p>
+            <h3>Blank</h3>
+            <p>Blank</p>
+            <p>Blank</p>
           </div>
 
           <div className="col">
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         
       </div>
-      <p className="footer-background"> © Cherry Software X ICONS Organization</p>
+      <p className="footer-background"> © Cherry Software X ICONS Organization</p>  
       
     </div>
     
