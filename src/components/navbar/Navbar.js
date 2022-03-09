@@ -15,19 +15,19 @@ const Navbar = () => {
         <div className="container">
             <div className="logo">
                 <img src={logo}  alt="logo" />
-                <h3>FREEDOM WALL</h3>
+                <h3>STUDENT BOARD</h3>
             </div>
 
             <ul className= {nav ? 'nav-menu active' : 'nav-menu'}>
               
               
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='/freedomwall'>Freedom Wall</Link></li>
+                <li><Link to='/freedomwall'>Student Board</Link></li>
                 <li><Link to='/guidelines'>Guidelines</Link></li>
                 <li><Link to='/blogs'>Blogs</Link></li>
                 <li><Link to='/about'>About Us</Link></li>
                 <Link to='/freedomwall/submission'>
-                <button>SUBMIT RANT</button>
+                <button>SUBMISSION</button>
                 </Link>
             </ul>
             <div className="hamburger" onClick={handleNav}>

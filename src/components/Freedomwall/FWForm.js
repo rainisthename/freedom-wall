@@ -3,12 +3,23 @@ import {useState} from 'react'
 import axios from 'axios'
 import FWItem from './FWItem'
 import styled from 'styled-components'
+import ScaleLoader from "react-spinners/ScaleLoader";
+import "./FWFormStyle.css"
+
 
 
 
 function FWForm() {
   const link = 'https://heroku1337.herokuapp.com/api/v1/crud'
   const [Submission, setSubmission] = useState([])
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+        setLoading(false)
+    }, (3000))
+  }, [])
 
 
   useEffect(() => {
@@ -79,12 +90,38 @@ function FWForm() {
 //     </div>
 // }
 return (
+<>
+
+
+
+  
+{
+    loading ?
+
+    <div className="loading">
+     
+    <ScaleLoader  color={"#FFFFFF"} loading={loading}  size={30} />
+   </div>
+    :
+
     <ItemSubmission>
-        {/* {insertSubmission()} */}
-        {renderSubmission()}
+    {/* {insertSubmission()} */}
+    {renderSubmission()}
     </ItemSubmission>
+
+
+}
+</>
+   
+
+
+
+ 
+
 )
 }
+
+
 
 const ItemSubmission = styled.div`
 

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="ff__header section__padding" id="home"> 
     <div className="ff__header-content">
-      <h1 className="title__text">What’s the Student Freedom Wall all about?</h1>
+      <h1 className="title__text">What’s the Student Board all about?</h1>
       
       <p> This website purpose is to let students share their rants, feelings, towards anything anonymously. <p>Put anything you want in the freedom wall and it will be here forever..</p>
       </p>
@@ -16,7 +16,7 @@ const Header = () => {
       
       <Link to='/freedomwall'>
        
-      <button type="button">VIEW RANT</button>
+      <button type="button">VIEW SUBMISSIONS</button>
       </Link>
       </div>
         

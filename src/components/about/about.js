@@ -8,8 +8,8 @@ const about = () => {
    <div className="about-content ">
      <div className="container ">
        <div className="content">
-        <p>The Freedom Wall or simply called (FR WALL) is an online Freedom Wall websites that allows students to share their feelings, rants, thoughts anonymously.</p> 
-        <p> Freedom Wall was created on January 2022. All of the content on this website is uploaded by anonymous students. </p>
+        <p>The Student Board or simply called (ST WALL) is an online Student Board websites that allows students to share their feelings, rants, thoughts anonymously.</p> 
+        <p> Student Board was created on January 2022. All of the content on this website is uploaded by anonymous students. </p>
         <p>Our Staff</p>
         <ul className="a">
           <li>Administrator

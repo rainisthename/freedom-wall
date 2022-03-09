@@ -5,7 +5,7 @@ const Guidelines = () => {
     <div className="about-content">
     <div className="container">
       <div className="content">
-       <p>Freedom Wall Official Rules and Guidelines.</p> 
+       <p>Student Board Official Rules and Guidelines.</p> 
        
 
        <ul className="a">

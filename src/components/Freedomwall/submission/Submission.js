@@ -1,15 +1,31 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 import "./FormInput.css"
 import logo from '../../../assets/logosub.png';
 import { Link } from 'react-router-dom';
 
+
+
+
+
+
+
+
 const Submission = () => {
 
+
+  
+
   const link = 'https://heroku1337.herokuapp.com/api/v1/crud';
+  
   const [SubmissionName, setSubmissionName] = useState('')
   const [SubmissionComment, setSubmissionComment] = useState('')
+
+
+ 
+
+
 
   async function addSubmission(e) {
     e.preventDefault()
@@ -21,11 +37,12 @@ const Submission = () => {
     }
 
     
-
-    await axios.post(link, submissionData)
+   
+    await axios.post(link, submissionData); 
     setSubmissionName('')
     setSubmissionComment('')
 
+  
     
   }
 
@@ -40,7 +57,8 @@ const Submission = () => {
     </div>
     <div className="form-box">
     
-        <form onSubmit={addSubmission}>
+    
+            <form onSubmit={addSubmission}>
       
             <div className="form-input">
           
@@ -60,7 +78,10 @@ const Submission = () => {
             </div>
          
               
-            <button className="submit-btn">Create</button>
+           
+            <button>Create</button>
+
+    
            
         </form>
     </div>
