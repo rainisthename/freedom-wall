@@ -33,7 +33,7 @@ const Submission = () => {
     const submissionData = {
       name: SubmissionName ? SubmissionName :undefined,
       comment: SubmissionComment ? SubmissionComment : undefined,
-      school: 'Northwestern University'
+      // school: 'Northwestern University'
     }
 
     
