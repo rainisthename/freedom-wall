@@ -11,7 +11,7 @@ const Guidelines = () => {
        <ul className="a">
          <li>Entry Submission
            <ul className="b">
-             <li>lstrbuendia</li>
+             <li>No Doxing or dropping names of a student, organization, teachers.</li>
              <li>wataruwatari</li>
            </ul>
          </li>
